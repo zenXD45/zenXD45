@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 320" role="img" aria-labelledby="title desc">
+  <title id="title">zenXD45 — personal sequencer panel</title>
+  <desc id="desc">Instrument panel reading: personal sequencer MK III, zenXD45, rics systems and ships software, a sixteen-step drum machine row with four lit steps, sequence 04/16 playing.</desc>
+
+  <defs>
+    <radialGradient id="led" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="25%" stop-color="#ff6a4d" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f04a3f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ledOrange" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="25%" stop-color="#ffb45e" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f2952e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ledYellow" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="25%" stop-color="#ffe27d" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f5d33d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ledIvory" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.98"/>
+      <stop offset="30%" stop-color="#fffdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#efe9e1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1e25"/>
+      <stop offset="100%" stop-color="#12141a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- panel ground -->
+  <rect x="0" y="0" width="1024" height="320" rx="20" fill="url(#bezel)"/>
+  <rect x="1" y="1" width="1022" height="318" rx="19" fill="none" stroke="#2b2f37" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1024" height="8" rx="4" fill="none" stroke="#3a3f49" stroke-width="1" opacity="0.6"/>
+
+  <!-- corner screws -->
+  <g fill="#272b33" stroke="#0c0d11" stroke-width="1">
+    <circle cx="26" cy="26" r="6"/><circle cx="998" cy="26" r="6"/><circle cx="26" cy="294" r="6"/><circle cx="998" cy="294" r="6"/>
+  </g>
+  <g stroke="#0c0d11" stroke-width="2" stroke-linecap="round">
+    <line x1="22" y1="30" x2="30" y2="22"/><line x1="994" y1="30" x2="1002" y2="22"/>
+    <line x1="22" y1="290" x2="30" y2="298"/><line x1="994" y1="290" x2="1002" y2="298"/>
+  </g>
+
+  <!-- model label -->
+  <text x="40" y="48" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" letter-spacing="4" fill="#9aa0a6">PERSONAL SEQUENCER · MK III</text>
+
+  <!-- status readout -->
+  <g>
+    <rect x="792" y="30" width="192" height="44" rx="6" fill="#0d0f13" stroke="#2b2f37" stroke-width="1.5"/>
+    <circle cx="806" cy="40" r="4" fill="url(#led)"/>
+    <text x="818" y="45" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" letter-spacing="2" fill="#e8e8e4">STATUS · PLAYING</text>
+    <text x="806" y="66" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#9aa0a6">SEQ <tspan fill="#f2952e">04</tspan>/16 · TEMPO <tspan fill="#f2952e">120</tspan></text>
+  </g>
+
+  <!-- headline -->
+  <text x="40" y="126" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="58" font-weight="700" letter-spacing="6" fill="#efefeb">zenXD45</text>
+  <text x="40" y="152" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" letter-spacing="5" fill="#f2952e">RICS SYSTEMS &amp; SHIPS SOFTWARE</text>
+
+  <!-- chase strip -->
+  <g>
+    <rect x="40" y="176" width="944" height="10" rx="5" fill="#0d0f13" stroke="#23262d" stroke-width="1"/>
+    <circle cx="96" cy="181" r="2.5" fill="#f2952e"/>
+    <circle cx="132" cy="181" r="2.5" fill="#f2952e" opacity="0.5"/>
+    <circle cx="168" cy="181" r="2.5" fill="#f2952e" opacity="0.2"/>
+    <text x="870" y="191" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#5c6269">CHASE ▸</text>
+  </g>
+
+  <!-- step numbers -->
+  <g font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" letter-spacing="1" fill="#6e747c" text-anchor="middle">
+    <text x="122" y="216">1</text><text x="174" y="216">2</text><text x="226" y="216">3</text><text x="278" y="216">4</text>
+    <text x="330" y="216">5</text><text x="382" y="216">6</text><text x="434" y="216">7</text><text x="486" y="216">8</text>
+    <text x="538" y="216">9</text><text x="590" y="216">10</text><text x="642" y="216">11</text><text x="694" y="216">12</text>
+    <text x="746" y="216">13</text><text x="798" y="216">14</text><text x="850" y="216">15</text><text x="902" y="216">16</text>
+  </g>
+
+  <!-- 16-step key row -->
+  <g>
+    <!-- channel 1 · red · 1-4 -->
+    <rect x="96"  y="224" width="44" height="40" rx="7" fill="#2a1517" stroke="#f04a3f" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="148" y="224" width="44" height="40" rx="7" fill="#f04a3f"/>
+    <rect x="200" y="224" width="44" height="40" rx="7" fill="#2a1517" stroke="#f04a3f" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="252" y="224" width="44" height="40" rx="7" fill="#2a1517" stroke="#f04a3f" stroke-opacity="0.35" stroke-width="1.5"/>
+    <!-- channel 2 · orange · 5-8 -->
+    <rect x="304" y="224" width="44" height="40" rx="7" fill="#f2952e"/>
+    <rect x="356" y="224" width="44" height="40" rx="7" fill="#2d1a0b" stroke="#f2952e" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="408" y="224" width="44" height="40" rx="7" fill="#2d1a0b" stroke="#f2952e" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="460" y="224" width="44" height="40" rx="7" fill="#2d1a0b" stroke="#f2952e" stroke-opacity="0.35" stroke-width="1.5"/>
+    <!-- channel 3 · yellow · 9-12 -->
+    <rect x="512" y="224" width="44" height="40" rx="7" fill="#f5d33d"/>
+    <rect x="564" y="224" width="44" height="40" rx="7" fill="#33290a" stroke="#f5d33d" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="616" y="224" width="44" height="40" rx="7" fill="#33290a" stroke="#f5d33d" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="668" y="224" width="44" height="40" rx="7" fill="#33290a" stroke="#f5d33d" stroke-opacity="0.35" stroke-width="1.5"/>
+    <!-- channel 4 · ivory · 13-16 -->
+    <rect x="720" y="224" width="44" height="40" rx="7" fill="#efe9e1"/>
+    <rect x="772" y="224" width="44" height="40" rx="7" fill="#26241f" stroke="#efe9e1" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="824" y="224" width="44" height="40" rx="7" fill="#26241f" stroke="#efe9e1" stroke-opacity="0.35" stroke-width="1.5"/>
+    <rect x="876" y="224" width="44" height="40" rx="7" fill="#26241f" stroke="#efe9e1" stroke-opacity="0.35" stroke-width="1.5"/>
+  </g>
+
+  <!-- LED glow on lit steps -->
+  <g>
+    <rect x="148" y="224" width="44" height="40" rx="7" fill="url(#led)" opacity="0.5"/>
+    <rect x="304" y="224" width="44" height="40" rx="7" fill="url(#ledOrange)" opacity="0.5"/>
+    <rect x="512" y="224" width="44" height="40" rx="7" fill="url(#ledYellow)" opacity="0.5"/>
+    <rect x="720" y="224" width="44" height="40" rx="7" fill="url(#ledIvory)" opacity="0.5"/>
+  </g>
+
+  <!-- armed steps legend -->
+  <g font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="1" text-anchor="middle">
+    <text x="196" y="282" fill="#f04a3f">HYPRZEN</text>
+    <text x="404" y="282" fill="#f2952e">WIE-TYPE</text>
+    <text x="612" y="282" fill="#f5d33d">ATS-REVIEWER</text>
+    <text x="820" y="282" fill="#efe9e1">INDIAN-TASTE</text>
+  </g>
+
+  <!-- transport + vent bottom -->
+  <g>
+    <circle cx="60" cy="258" r="5" fill="#f04a3f"/>
+    <text x="74" y="262" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#9aa0a6">REC</text>
+    <circle cx="150" cy="258" r="5" fill="none" stroke="#f2952e" stroke-width="2"/>
+    <text x="164" y="262" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#9aa0a6">STOP</text>
+    <rect x="932" y="282" width="56" height="3" rx="1.5" fill="#1c1f26"/>
+    <rect x="932" y="289" width="56" height="3" rx="1.5" fill="#1c1f26"/>
+    <rect x="932" y="296" width="56" height="3" rx="1.5" fill="#1c1f26"/>
+    <text x="40" y="296" font-family="'Cascadia Mono','JetBrains Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#6e747c">zenXD45 · 2026 · MAKE NOISE WHEN YOU SIGNAL</text>
+  </g>
+</svg>
